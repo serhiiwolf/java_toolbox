@@ -1,0 +1,2 @@
+[2025-06-19 19:02:12] Convert to PNG (C:\Users\serhi\Downloads\qqq.png)
+[2025-06-19 19:02:46] Resize to png (C:\Users\serhi\Downloads\qqqq.png)

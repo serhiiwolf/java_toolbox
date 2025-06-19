@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="flow.tools.toolbox.controller.MainController"
+            style="-fx-background-color: #000000;">
+
+  <top>
+    <MenuBar style="-fx-background-color: #000000; -fx-text-fill: #ffffff;">
+      <Menu text="File">
+        <MenuItem text="Convert" onAction="#onOpenConvert"/>
+        <MenuItem text="Resize" onAction="#onOpenResize"/>
+        <MenuItem text="Logs" onAction="#onShowLogs"/>
+        <MenuItem text="Exit" onAction="#onExit"/>
+      </Menu>
+      <Menu text="ABOUT">
+        <MenuItem text="Author" onAction="#onAbout"/>
+      </Menu>
+    </MenuBar>
+  </top>
+
+  <center>
+    <GridPane fx:id="gridPane" hgap="10" vgap="10"
+              style="-fx-background-color: #000000; -fx-text-fill: #ffffff;">
+    </GridPane>
+  </center>
+
+</BorderPane>
